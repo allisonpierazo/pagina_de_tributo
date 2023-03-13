@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial;
+  
+}
+
+header, section, footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.namesinger {
+    text-align:  center;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.subtext {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+nav{
+    display: flex;
+    font-size: 25px;
+    padding: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 20px;
+}
+
+.banner_desc {
+    text-align: center;
+    padding: 20px;
+    font-size: 19px;
+}
+.biography {
+    text-decoration: none;
+}
+
+.biography_title,
+.discography_title,
+.successes_title {
+    background-color: white;
+    text-align: center;
+    font-size: 42px;
+}
+
+.biography_text, 
+.discography_text,
+.successes_text {
+    margin-top: 20px;
+    font-size: 19px;
+}
+p {
+    text-indent: 2em;
+}
+.albuns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.solo {
+    padding: 20px;
+}
+footer {
+    font-size: 19px;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    width: 80%;
+}
+.fonts a {
+    text-decoration: none;
+    color: #CC3596;
+}
