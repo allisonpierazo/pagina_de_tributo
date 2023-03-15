@@ -1,15 +1,24 @@
 * {
-    font-family: Arial;
+   font-family: Arial; 
 }
+@font-face {
+    font-family: April-June;
+    src: url("../fonts/April-June.ttf");
+}
+@font-face {
+    font-family: Queen;
+    src: url("../fonts/Queen.otf");
+}
+
 body {
     margin: 0;
+    background-color:#000; 
 }
 
 header, section, footer {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
-    background-size: cover;
+    background-color: #FBD872;
     margin-left: 10vw;
     margin-right: 10vw;
     padding: 20px;
@@ -18,14 +27,20 @@ header, section, footer {
     text-align:  center;
 }
 
+
 .text {
+    font-family: April-June;
+    color: #555;
+    font-weight: bold;
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .subtext {
+    font-family: Queen;
+    font-weight: bold;
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 28px;
 }
 
 nav{
@@ -33,22 +48,29 @@ nav{
     font-size: 25px;
     padding: 20px;
     justify-content: space-between;
-    text-decoration: none;
 }
 nav a {
     text-decoration: none;
-    color: #CC3596;
+    font-family: April-June;
+    font-size: 47px;
+    border-bottom: 2px solid #333;
+    padding: 20px;
+    color: #c59907;
+}
+.history {
+    display:flex;
+}
+img {
+    height: 300px;
 }
 .banner {
-    display: flex;
-    text-align: center;
+    width: 40vw;
+}
+.banner_desc {
+    margin-left: 20px;
+    font-size: 20px;
 }
 
-.banner_desc {
-    text-align: center;
-    padding: 20px;
-    font-size: 19px;
-}
 .biography {
     text-decoration: none;
 }
@@ -56,16 +78,19 @@ nav a {
 .biography_title,
 .discography_title,
 .successes_title {
-    background-color: white;
+    font-family: April-June;
+    border-bottom: 2px solid #333;
     text-align: center;
-    font-size: 42px;
+    color: #c59907;
+    font-size: 47px;
+    margin-top: 20px;
 }
 
 .biography_text, 
 .discography_text,
 .successes_text {
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 20px;
 }
 p {
     text-indent: 2em;
